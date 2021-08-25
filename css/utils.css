@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Roboto:wght@500&display=swap');
+:root {
+    --main-bg-color: purple;
+    --font1: 'Montserrat', sans-serif;
+    --font2: 'Roboto', sans-serif;
+}
+
+.font1 {
+    font-family: var(--font1);
+}
+
+.font2 {
+    font-family: var(--font2);
+}
+
+.max-width-1 {
+    max-width: 80vw;
+}
+
+.max-width-2 {
+    max-width: 60vw;
+}
+
+.m-auto {
+    margin: auto;
+}
+
+.btn {
+    padding: 5px 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-family: var(--font1);
+    font-size: 0.9vw;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn:hover {
+    color: wheat;
+    background-color: var(--main-bg-color);
+}
+
+.form-input {
+    padding: 8px 6px;
+    border-radius: 16px;
+    margin: 0px 25px;
+    font-size: 0.9vw;
+    border: 2px solid black;
+    font-family: var(--font1);
+}
