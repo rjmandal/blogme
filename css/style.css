@@ -4,6 +4,7 @@
         }
         
         .navigation {
+            margin-top: 25px;
             font-family: var(--font1);
             height: 74px;
             /* background-color: red */
@@ -41,8 +42,8 @@
         
         .nav-left ul li {
             list-style: none;
-            font-size: large;
-            font-weight: bold;
+            font-size: x-large;
+            /* font-weight: 800; */
             margin: 0px 14px;
             font-family: var(--font2);
         }
@@ -75,11 +76,24 @@
         .home-articles {}
         
         .home-articles {
-            height: 445px;
-            /* background-color: red; */
+            /* height: 445px; */
+            padding-top: 32px;
+            /* background-color: rgb(247, 120, 120); */
         }
         
-        .home-article {}
+        .home-article {
+            display: flex;
+            padding: 25px;
+        }
+        
+        .home-article img {
+            width: 300px;
+        }
+        
+        .home-article-content {
+            align-self: center;
+            margin: 25px;
+        }
         
         .footer {
             height: 50px;
