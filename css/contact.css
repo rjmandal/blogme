@@ -1,0 +1,18 @@
+.contact-content {
+    height: 80vh;
+    padding: 15px;
+    position: relative;
+    margin-top: 52px;
+}
+
+.contact-content::after {
+    content: "";
+    border-radius: 28px;
+    background-image: url(../img/img-7.jpg);
+    position: absolute;
+    top: -10px;
+    width: 100%;
+    height: inherit;
+    opacity: 0.5;
+    z-index: -1;
+}

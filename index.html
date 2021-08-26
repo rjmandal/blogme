@@ -13,25 +13,32 @@
 <body>
     <nav class="navigation max-width-1 m-auto">
         <div class="nav-left">
-            <h1>Blogme</h1>
+            <a href="/index.html" style="text-decoration: none;">
+                <h1>Blogme</h1>
+            </a>
             <ul>
                 <li>
                     <a href="">home</a>
                 </li>
                 <li>
-                    <a href="">About</a>
+                    <a href="/about.html">About</a>
                 </li>
                 <li>
-                    <a href="">Help</a>
+                    <a href="/contact.html">contact</a>
                 </li>
             </ul>
         </div>
         <div class="nav-right">
-            <input class="form-input" type="text" placeholder="search">
-            <button class="btn">search</button>
+            <form action="/search.html" method="GET">
+                <input class="form-input" type="text" name="query" placeholder="search">
+                <button class="btn">search</button>
+            </form>
         </div>
     </nav>
-    <div class="content max-width-1 m-auto">
+    <div class="max-width-1 m-auto">
+        <hr>
+    </div>
+    <div class="content max-width-1 m-auto my-2">
         <div class="content-left">
             <h1>The heaven for bolggers</h1>
             <br>
@@ -48,38 +55,48 @@
     <div class="max-width-1 m-auto">
         <hr>
     </div>
-    <div class="home-articles max-width-1 m-auto font2">
+    <div class="home-articles max-width-1 m-auto font2 mx">
         <h2>Featured articles</h2>
         <div class="home-article">
             <div class="home-article-img">
-                <img src=" img/home.jpg" alt="">
+                <img src="img/img-4.png" alt="">
             </div>
             <div class="home-article-content font1">
-                <h3>Lorem ipsum, dolor sit amet consectetur adipisicing elit.Architecto.</h3>
-                <span>Author Name </span>
-                <span> Date | 6m read</span>
+                <a href="/blogpost.html">
+                    <h3>Tesla working on new project Tesla boat a humonoid robot which brings the revolution. </h3>
+                </a>
+
+                <div>Sanjay Mandal</div>
+                <span> 25 aug 2021 | 6m read</span>
             </div>
         </div>
         <div class="home-article">
             <div class="home-article-img">
-                <img src=" img/home.jpg" alt="">
+                <img src=" img/img-5.png" alt="">
             </div>
             <div class="home-article-content font1">
-                <h3>Lorem ipsum, dolor sit amet consectetur adipisicing elit.Architecto.</h3>
-                <span>Author Name </span>
-                <span> Date | 6m read</span>
+                <a href="/blogpost.html">
+                    <h3>Top 5 workout for weight loss.lose 5kg by doing this for 30 days.</h3>
+                </a>
+
+                <div>Sanjay Mandal</div>
+                <span> 26 aug 2021 | 6m read</span>
             </div>
         </div>
         <div class="home-article">
             <div class="home-article-img">
-                <img src=" img/home.jpg" alt="">
+                <img src=" img/img-1.png" alt="">
             </div>
             <div class="home-article-content font1">
-                <h3>Lorem ipsum, dolor sit amet consectetur adipisicing elit.Architecto.</h3>
-                <span>Author Name </span>
+                <a href="/blogpost.html">
+                    <h3>Lorem ipsum, dolor sit amet consectetur adipisicing elit.Architecto.</h3>
+                </a>
+
+                <div>Sanjay Mandal</div>
                 <span> Date | 6m read</span>
             </div>
         </div>
+
     </div>
 
     <div class="footer">
