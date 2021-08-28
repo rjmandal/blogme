@@ -127,6 +127,10 @@
             /* color: var(--main-bg-color); */
         }
         
+        .width {
+            width: 400px;
+        }
+        
         .footer {
             height: 50px;
             background-color: var(--main-bg-color);

@@ -1,72 +1,72 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Roboto:wght@500&display=swap');
-:root {
-    --main-bg-color: #FFB740;
-    --font1: 'Montserrat', sans-serif;
-    --font2: 'Roboto', sans-serif;
-    --bg: url(../img/img-8.jpg);
-}
-
-.font1 {
-    font-family: var(--font1);
-}
-
-.font2 {
-    font-family: var(--font2);
-}
-
-.max-width-1 {
-    max-width: 80vw;
-}
-
-.max-width-2 {
-    max-width: 60vw;
-}
-
-.m-auto {
-    margin: auto;
-}
-
-.my-2 {
-    margin-top: 30px;
-    margin-bottom: 30px;
-}
-
-.btn {
-    padding: 5px 20px;
-    border: 2px solid black;
-    border-radius: 10px;
-    font-family: var(--font1);
-    font-size: 0.9vw;
-    cursor: pointer;
-    transition: all 0.3s ease-in-out;
-}
-
-.btn:hover {
-    color: wheat;
-    background-color: var(--main-bg-color);
-}
-
-.form-input {
-    padding: 8px 6px;
-    border-radius: 16px;
-    margin: 0px 25px;
-    font-size: 0.9vw;
-    border: 2px solid black;
-    font-family: var(--font1);
-}
-
-.form-box input,
-textarea {
-    width: 34vw;
-    padding: 10px 6px;
-    margin: 12px 361px;
-    border-radius: 28px;
-    border: 3px solid var(--main-bg-color);
-    font-size: 18px;
-    font-family: var(--font1);
-}
-
-.mx h2 {
-    margin-left: 25px;
-}
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Roboto:wght@500&display=swap');
+    :root {
+        --main-bg-color: #FFB740;
+        --font1: 'Montserrat', sans-serif;
+        --font2: 'Roboto', sans-serif;
+        --bg: url(../img/img-8.jpg);
+    }
+    
+    .font1 {
+        font-family: var(--font1);
+    }
+    
+    .font2 {
+        font-family: var(--font2);
+    }
+    
+    .max-width-1 {
+        max-width: 80vw;
+    }
+    
+    .max-width-2 {
+        max-width: 60vw;
+    }
+    
+    .m-auto {
+        margin: auto;
+    }
+    
+    .my-2 {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    
+    .btn {
+        padding: 5px 20px;
+        border: 2px solid black;
+        border-radius: 10px;
+        font-family: var(--font1);
+        font-size: 0.9vw;
+        cursor: pointer;
+        transition: all 0.3s ease-in-out;
+    }
+    
+    .btn:hover {
+        color: wheat;
+        background-color: var(--main-bg-color);
+    }
+    
+    .form-input {
+        padding: 8px 6px;
+        border-radius: 16px;
+        margin: 0px 25px;
+        font-size: 0.9vw;
+        border: 2px solid black;
+        font-family: var(--font1);
+    }
+    
+    .form-box input,
+    textarea {
+        width: 34vw;
+        padding: 10px 6px;
+        margin: 12px 361px;
+        border-radius: 28px;
+        border: 3px solid var(--main-bg-color);
+        font-size: 18px;
+        font-family: var(--font1);
+    }
+    
+    .mx h2 {
+        margin-left: 25px;
+    }
