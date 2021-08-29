@@ -90,6 +90,8 @@
             /* height: 445px; */
             padding-top: 32px;
             background-color: rgb(255, 183, 64, 0.5);
+            border-top-right-radius: 28px;
+            border-top-left-radius: 28px;
             position: relative;
             /* margin-top: 25px; */
         }
@@ -114,6 +116,7 @@
         
         .home-article img {
             width: 300px;
+            border-radius: 25px;
         }
         
         .home-article-content {

@@ -1,6 +1,6 @@
     @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
     @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Roboto:wght@500&display=swap');
-    :root {
+     :root {
         --main-bg-color: #FFB740;
         --font1: 'Montserrat', sans-serif;
         --font2: 'Roboto', sans-serif;
@@ -60,7 +60,8 @@
     textarea {
         width: 34vw;
         padding: 10px 6px;
-        margin: 12px 361px;
+        align-items: center;
+        margin: 15px;
         border-radius: 28px;
         border: 3px solid var(--main-bg-color);
         font-size: 18px;

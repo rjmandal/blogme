@@ -1,8 +1,9 @@
 .contact-content {
-    height: 80vh;
+    height: 100vh;
     padding: 15px;
     position: relative;
     margin-top: 52px;
+    overflow: hidden;
 }
 
 .contact-content::after {
@@ -15,4 +16,8 @@
     height: inherit;
     opacity: 0.5;
     z-index: -1;
+}
+
+.form-box .btn {
+    margin-left: 20px;
 }
