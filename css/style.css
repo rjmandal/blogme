@@ -4,14 +4,14 @@
         }
         
         .navigation {
-            /* position: sticky; */
-            margin-top: 25px;
             font-family: var(--font1);
-            height: 74px;
-            /* background-color: red */
             display: flex;
             justify-content: space-between;
             align-items: center;
+            padding: 6px;
+            /* position: sticky; */
+            /* height: 64px; */
+            /* background-color: red; */
         }
         
         .nav-left {
@@ -27,13 +27,13 @@
         .nav-left ul {
             display: flex;
             align-items: center;
-            margin: 0px 80px;
+            margin: 0px 30px;
         }
         
         .nav-left ul li a {
             text-decoration: none;
             color: black;
-            padding: 0px 42px;
+            padding: 0px 15px;
         }
         
         .nav-left ul li a:hover {
@@ -51,7 +51,7 @@
         
         .content {
             display: flex;
-            height: 395px;
+            height: 100%;
             padding: 9px;
             position: relative;
             margin-top: 32px;
@@ -63,7 +63,7 @@
             background-image: var(--bg);
             position: absolute;
             width: 100%;
-            height: inherit;
+            height: 100%;
             opacity: 0.5;
             z-index: -1;
         }
