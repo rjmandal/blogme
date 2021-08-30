@@ -1,4 +1,4 @@
-     @media screen and (max-width:1260px) {
+     @media screen and (max-width:1400px) {
          .navigation {
              flex-direction: column;
              margin-bottom: 20px;
@@ -48,5 +48,18 @@
          }
          .row {
              flex-direction: column;
+             /* padding: 0px 10px; */
+         }
+         .form-box .btn {
+             margin-left: 76px;
+         }
+         .post-img {
+             height: auto;
+         }
+         .mb-img {
+             margin-left: -49px;
+         }
+         .mb-text {
+             margin-right: -89px;
          }
      }
